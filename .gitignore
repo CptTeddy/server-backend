@@ -1,6 +1,7 @@
 # Project custom ignore files
 .DS_Store
 db.sqlite3
+serverbackend/static
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
