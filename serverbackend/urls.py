@@ -16,10 +16,12 @@ Including another URLconf
 
 # Server address: y-team.herokuapp.com
 
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
+from safedrawer import views
 
 urlpatterns = [
+	url(r'^alert/', include('safedrawer.urls')),
     url(r'^admin/', admin.site.urls),
-    url(r'^alert/', safedrawer.views.alert),
+    # url(r'^alert/', views.alert),
 ]

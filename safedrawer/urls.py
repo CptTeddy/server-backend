@@ -1,0 +1,9 @@
+
+# Server address: y-team.herokuapp.com
+
+from django.conf.urls import url, include
+from . import views
+
+urlpatterns = [
+    url(r'^$', views.alert),
+]
