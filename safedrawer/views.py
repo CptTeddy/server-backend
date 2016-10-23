@@ -14,7 +14,7 @@ def alert(request):
 		if test_sms():
 			return Response("Test message sent.", status=status.HTTP_202_ACCEPTED)
 		else:
-			return Response(status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+			return Response(status=status.HTTP_503_SERVICE_UNAVAILABLE)
 	elif request.method == 'GET':
 		return Response("Hello world", status=status.HTTP_202_ACCEPTED)
 
