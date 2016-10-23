@@ -10,8 +10,9 @@ tclient = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
 
 def test_sms():
     # return send_sms("+15107016380", "this is a test")
-    return send_sms("+8618917094945", "this is a test")
-
+    # return send_sms("+8618917094945", "this is a test")
+    return send_sms("+14159921312", "Drawer Opened!")
+	
 def send_sms(number, message):
     global twilio_client
     try:
