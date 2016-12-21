@@ -1,5 +1,5 @@
 # This is the Server Backend
-Backend part of the **[Inivisible Drawer Lock](https://drive.google.com/file/d/0B0wxzOB6KfTfcEprX3VLMWV0RkU/view?usp=sharing)** project built for Robotics@Berkeley's Dorm Ex Machina (Dorm of the Machine) competition ***(Won Second Place! Yay)***. The server backend can handle requests from Arduino and message smartphone.
+Backend part of the **[Invisible Drawer Lock](https://drive.google.com/file/d/0B0wxzOB6KfTfcEprX3VLMWV0RkU/view?usp=sharing)** project built for Robotics@Berkeley's Dorm Ex Machina (Dorm of the Machine) competition ***(Won Second Place! Yay)***. The server backend can handle requests from Arduino and message smartphone.
 
 ## What is Invisible Drawer Lock
 
